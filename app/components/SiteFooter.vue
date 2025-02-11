@@ -31,8 +31,8 @@
         {{ $t("footer.fiveMinutes") }}
       </n-p>
       <n-p depth="3">
-        Copyright &copy; 2020 - {{ new Date().getFullYear() }}
-        <n-text depth="3" @click="jumpLink(linkData.home)"> IMSYY </n-text>
+        Copyright &copy; 2021 - {{ new Date().getFullYear() }}
+        <n-text depth="3" @click="jumpLink(linkData.home)"> Shenyi </n-text>
         <n-text
           v-if="siteIcp"
           depth="3"
@@ -51,7 +51,7 @@ const { siteIcp, version } = configPublic;
 
 const linkData = {
   github: "https://github.com/imsyy/site-status",
-  home: "https://www.imsyy.top",
+  home: "https://www.shenyic.cyou",
   email: "mailto:one@imsyy.top",
 };
 </script>
